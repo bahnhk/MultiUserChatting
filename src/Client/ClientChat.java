@@ -49,7 +49,7 @@ public class ClientChat {
 		while (true) {
 			Sender sender = new Sender();
 			Thread t = new Thread(sender);
-			System.out.println("Input Client Message....");
+			System.out.print("Client: ");
 			String msg = scanner.nextLine();
 			if (msg.equals("q")) {
 				scanner.close();// while문 끝나기 전에 닫아줘야함.
